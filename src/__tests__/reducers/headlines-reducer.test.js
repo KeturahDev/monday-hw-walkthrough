@@ -66,5 +66,5 @@ describe('headlinesReducer', () => {
         error: "An error"
     });
   });
-  
+
 });
