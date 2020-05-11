@@ -48,7 +48,7 @@ describe('headlinesReducer', () => {
 
     expect(headlinesReducer(loadingState, action)).toEqual({
       isLoading: false,
-      headline: "A headline!",
+      headlines: "A headline!",
       error: null
     });
   });
